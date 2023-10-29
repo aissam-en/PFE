@@ -1,0 +1,20 @@
+{
+    "nbr_total_etud_insc":312,
+
+    "etudCounter2020nor":[
+        {
+            "nbr_etud_val"       :200,
+            "nbr_etud_noval"     :100,
+            "nbr_etud_pass_exam" :300,
+            "nbr_etud_abs"       :12
+        }
+    ],
+    "etudCounter2020rat":[
+        {
+            "nbr_etud_val"       :90,
+            "nbr_etud_noval"     :18,
+            "nbr_etud_pass_exam" :108,
+            "nbr_etud_abs"       :4
+        }
+    ]
+}

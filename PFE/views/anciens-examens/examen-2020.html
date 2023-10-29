@@ -1,0 +1,315 @@
+<img class="background" src="./images/9.jpg">
+
+<div class="ui black right aligned small disabled header">
+	<i class="small clock icon"></i>Le : {{ExmCtrl.dateAujourdhuit | date:'dd/MM/yyyy HH:mm:ss'}}&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+<div class="ui segment">
+	<div class="ui center aligned header">
+		<h1>EXAMEN 2020</h1>
+	</div>
+	<br>
+
+	<div class="ui two stackable cards">
+
+		<div class="card">
+			<div class="content">
+
+				<div class="ui center aligned header">
+					<h2>SESSION <span style="color: #47A3D0;">NORMAL</span></h2>
+				</div>
+
+				<div class="ui inverted segment">
+					<div class="ui inverted list">
+						<br>
+						<div class="item">
+							<br>
+							<i class="angle right icon"></i>
+							<div class="content">
+								<div class="ui header">
+									Étudients&nbsp;&nbsp;<span
+										style="text-decoration: underline; text-decoration-color: lightseagreen;">PASSENT</span>
+										&nbsp;&nbsp;l'examen:
+									<span style="color:lightseagreen;">&nbsp;&nbsp;{{ExmCtrl.nbrEtudPass20Nor}} <i class="users icon"></i></span>
+								</div>
+
+								<br>
+								<div class="list">
+									<div class="item">
+										<i class="angle double right icon"></i>
+										<div class="content">
+											<div class="ui header">
+												<span
+													style="text-decoration: underline; text-decoration-color: #20B744;">Réussis</span>
+												:
+												<span style="color: #20B744;">&nbsp;&nbsp;{{ExmCtrl.nbrEtudReuss20Nor}} <i class="users icon"></i></span>
+											</div>
+										</div>
+									</div>
+
+									<br>
+									<div class="item">
+										<i class="angle double right icon"></i>
+										<div class="content">
+											<div class="ui header">
+												<span
+													style="text-decoration: underline; text-decoration-color: orange;">Non
+													Réussis</span> :
+												<span style="color:orange;">&nbsp;&nbsp;{{ExmCtrl.nbrEtudNonReuss20Nor}} <i class="users icon"></i></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<br>
+						<div class="item">
+							<i class="angle right icon"></i>
+							<div class="content">
+								<div class="ui header">
+									Étudients&nbsp;&nbsp;<span
+										style="text-decoration: underline; text-decoration-color: orangered;">NE
+										PASSENT PAS</span>&nbsp;&nbsp;l'examen:
+									<span style="color:orangered;">&nbsp;{{ExmCtrl.nbrEtudNePass20Nor}} <i class="users icon"></i></span>
+									<br><br><br>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		
+		<div class="card">
+
+			<div class="content">
+
+				<div class="ui center aligned header">
+					<h2>SESSION <span style="color: #47A3D0;">RATTRAPAGE</span></h2>
+				</div>
+
+				<div class="ui inverted segment">
+					<div class="ui inverted list"> <br>
+						<div class="item"> <br>
+							<i class="angle right icon"></i>
+							<div class="content">
+								<div class="ui header">
+									Étudients&nbsp;&nbsp;<span
+										style="text-decoration: underline; text-decoration-color: lightseagreen;">PASSENT</span>
+										&nbsp;&nbsp;l'examen:
+									<span style="color:lightseagreen;">&nbsp;&nbsp;{{ExmCtrl.nbrEtudPass20Rat}} <i class="users icon"></i></span>
+								</div>
+								 <br>
+								<div class="list">
+									<div class="item">
+										<i class="angle double right icon"></i>
+										<div class="content">
+											<div class="ui header">
+												<span
+													style="text-decoration: underline; text-decoration-color: #20B744;">Réussis</span>
+												:
+												<span style="color: #20B744;">&nbsp;&nbsp;{{ExmCtrl.nbrEtudReuss20Rat}} <i class="users icon"></i></span>
+											</div>
+										</div>
+									</div>
+
+									<br>
+									<div class="item">
+										<i class="angle double right icon"></i>
+										<div class="content">
+											
+											<div class="ui header">
+												<span
+													style="text-decoration: underline; text-decoration-color: orange;">Non
+													Réussis</span> :
+												<span style="color:orange;">&nbsp;&nbsp;{{ExmCtrl.nbrEtudNonReuss20Rat}} <i class="users icon"></i></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<br>
+						<div class="item">
+							<i class="angle right icon"></i>
+							<div class="content">
+								
+								<div class="ui header">
+									Étudients&nbsp;&nbsp;<span
+										style="text-decoration: underline; text-decoration-color: orangered;">NE
+										PASSENT PAS</span>&nbsp;&nbsp;l'examen:
+									<span style="color:orangered;">&nbsp;{{ExmCtrl.nbrEtudNePass20Rat}} <i class="users icon"></i></span>
+									<br><br><br>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+	</div>
+
+
+
+
+
+	<div class="ui segment">
+
+	
+	<div class="ui grid">
+		<div class="eight wide column">
+			<div class="ui labeled button" tabindex="0" onClick="$('#qcm2020nor').modal('show')">
+				<button class="ui green button">
+					SESSION NORMAL
+				</button>
+				<a class="ui basic green left pointing label"><i class="eye outline icon"></i>Résultat</a>
+			</div>
+		</div>
+
+		<div class="eight wide column">
+			<div class="ui labeled button" tabindex="0" onClick="$('#qcm2020rat').modal('show')">
+				<button class="ui green button">
+					SESSION RATRAPAGE
+				</button>
+				<a class="ui basic green left pointing label"> <i class="eye icon"></i>Afficher </a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	
+</div>
+
+
+
+
+
+<div class="ui segment">
+	<!--cette partie va afficher apres click sur 'SESSION RATTRAPAGE Résultat' button-->
+	<!-- Correction d'Examen 2020 Nor-->
+	<div class="ui modal" id="qcm2020nor">
+		<i class="close icon"></i>
+		<div class="header">
+			Résultat d'examen 2020 | NORMAL :
+		</div>
+	
+		<div class="content">
+			<div class="ui two stackable cards">
+				<div class="card" ng-repeat="qst in ExmCtrl.qcmList2022nor"> 
+					<div class="content">
+						<h2 class="header">
+							<span style="color: #059; background-color: #BEF;">Question {{qst.n}}:</span>
+							{{qst.question}}
+						</h2>
+						<div class="ui divider"></div>
+						<table>
+							<tr>
+								<td style="font-family: Monaco, monospace;">
+									<span
+										style="color: #270; background-color: #DFF2BF; font-weight: bold;">Résult:</span>
+									{{qst.reponse}}
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<br>
+			<button class="ui primary button" onClick="window.print()">
+				<i class="print icon"></i>
+				Imprimer les corrections
+			</button>
+		</div>
+
+	</div>
+
+
+	<!--cette partie va afficher apres click sur 'SESSION RATTRAPAGE Résultat' button-->
+	<!-- Correction d'Examen 2020 rat-->
+	<div class="ui modal" id="qcm2020rat">
+		<i class="close icon"></i>
+		<div class="header">
+			Résultat d'examen 2020 | RATTRAPAGE :
+		</div>
+		<div class="content">
+			<div class="ui two stackable cards">
+
+				<div class="card" ng-repeat="qst in ExmCtrl.qcmList2022rat">
+					<div class="content">
+						<h2 class="header">
+							<span style="color: #059; background-color: #BEF;">Question {{qst.n}}:</span>
+							{{qst.question}}
+						</h2>
+						<div class="ui divider"></div>
+						<table>
+							<tr>
+								<td style="font-family: Monaco, monospace;">
+									<span
+										style="color: #270; background-color: #DFF2BF; font-weight: bold;">Résult:</span>
+									{{qst.reponse}}
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+
+			</div>
+
+			<div>
+				<br>
+				<button class="ui primary button" onClick="window.print()">
+					<i class="print icon"></i>
+					Imprimer les corrections
+				</button>
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class="ui segment">
+		<div class="ui inverted segment">
+			<h2 class="ui center aligned header">Statistiques sur Les Étudients <span style="color: #47A3D0;">Passent Examen 2020</span></h2>
+		</div>
+
+		<div class="ui one stackable cards">
+			<div class="card">
+				<canvas id="EtudData"></canvas>
+			</div>
+		</div>
+	</div>
+
+	<br>
+	
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<br>

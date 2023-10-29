@@ -1,0 +1,107 @@
+<img class="background" src="./images/9.jpg">
+
+<div class="ui inverted segment">
+	<div class="ui center aligned header">
+		<h1>Dashboard d'Évaluation Module Architecture des Ordinateurs </h1>
+	</div>
+
+	<div class="ui segment">
+		<div class="ui statistics">
+
+			<div class="green statistic">
+				<div class="value">
+					&nbsp; &nbsp; <i class="green users icon"></i> {{main.totalEtudPassExam22}} &nbsp;&nbsp;
+				</div>
+				<div class="label">
+					&nbsp; &nbsp; <span style="color:#26D44F;">PASSENT</span> L'EXAMEN 2022 &nbsp;&nbsp;
+				</div>
+			</div>
+
+			<div class="red statistic">
+				<div class="value">
+					&nbsp;&nbsp; <i class="red users icon"></i> {{main.totalEtudAbsExam22}} &nbsp;&nbsp;
+				</div>
+				<div class="label">
+					&nbsp;&nbsp; <span style="color:#F52D2D;">NE PASSENT PAS</span> L'EXAMEN 2022 &nbsp;&nbsp;
+				</div>
+			</div>
+
+			<div class="teal statistic">
+				<div class="value">
+					&nbsp;&nbsp; <i class="teal time icon"></i> {{main.dateAujourdhuit | date:'dd/MM/yy'}}
+				</div>
+				<div class="label">
+					&nbsp;&nbsp; <span style="color:#00CFC5;">DATE</span> D'AUJOURDHUIT
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<div class="ui segment">
+	<div class="ui two stackable cards">
+
+		<div class="card">
+			<div class="content">
+				<h2 class="ui center aligned header">Nombre d'étudiants inscrits au module Architecture des Ordinateurs</h2>
+				<div class="ui divider"></div>
+				<canvas id="nbrEtud4annees"></canvas>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="content">
+				<a href="#/examen2022">
+					<h2 class="ui center aligned header"><span style=" text-decoration: underline;"><i class="star icon"></i>RÉSULTAT 2022</span></h2>
+				</a>
+				<div class="ui divider"></div>
+				<canvas id="discUsageChart"></canvas>
+				<p class="chartData"></p>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<div class="ui three stackable cards">
+
+		<div class="ui green card">
+			<div class="ui inverted green segment">
+				<h2 class="ui black header">Étudiants qui <span style="color:#90EE90; text-decoration: underline;">ont <br> Réussi</span></h2>
+			</div>
+			<canvas id="EtudReussiData"></canvas>
+		</div>
+
+		<div class="ui orange card">
+			<div class="ui inverted orange segment">
+				<h2 class="ui black headerr">Étudiants qui <span style="color:#F7CD7C; text-decoration: underline;"> n'ont <br> pas Réussi</span></h2>
+			</div>
+			<canvas id="EtudPasReussiData"></canvas>
+		</div>
+
+		<div class="ui red card">
+			<div class="ui inverted red segment">
+				<h2 class="ui black header">Étudiants qui <span style="color:#FFCCCB; text-decoration: underline;">sont Absents</span></h2>
+			</div>
+			<canvas id="EtudAbsData"></canvas>
+		</div>
+
+	</div>
+
+	<div class="ui one stackable cards"> 
+
+		<div class="card">
+			<div class="content">
+				<h2 class="ui left aligned header">Qualité des anciens examens : </h2>
+				<!-- <div class="ui divider"></div> -->
+				<br>
+				<canvas id="QltTousExams"></canvas>
+			</div>
+		</div>
+		
+	</div>
+
+</div>

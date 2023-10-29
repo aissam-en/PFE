@@ -1,0 +1,653 @@
+<img class="background" src="./images/9.jpg">
+
+
+
+
+
+<div class="ui black right aligned small disabled header">
+	<i class="small clock icon"></i>Le : {{ExmCtrl.dateAujourdhuit | date:'dd/MM/yyyy
+	HH:mm:ss'}}&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="ui three item menu"> -->
+<div class="ui segment">
+	<div class="ui center aligned header">
+		<h1>EXAMEN 2019 <span style="color: #47A3D0;">SESSION NORMAL</span></h1>
+	</div>
+
+	<!-- TEST 1 -->
+	<!-- <div class="ui two stackable cards"> -->
+	<!-- <div class="right menu"> -->
+	<!--delelel-->
+	<!-- <div class="item"> -->
+	<!--delelel-->
+	<!-- <div class="card">
+			<button class="ui green button" onClick="$('#qcm2022nor').modal('show')">
+				<i class="eye icon"></i>Result de QCM 2022 | NORMAL
+			</button>
+		</div> -->
+	<!-- <div class="item"> -->
+	<!--delelel-->
+	<!-- <div class="card">
+			<button class="ui green button" onClick="$('#qcm2022rat').modal('show')">
+				<i class="eye icon"></i>Result de QCM 2022 | RATRAPAGE
+			</button>
+		</div>
+
+	</div>
+</div> -->
+
+
+
+
+	<!-- TWST 2 -->
+	<!-- <div class="ui two stackable cards">
+		<div class="card">
+			<div class="ui labeled button" tabindex="0">
+				<button class="ui green button" onClick="$('#qcm2022nor').modal('show')">
+					<i class="eye icon"></i> Result de QCM 2022
+				</button>
+				<a class="ui basic green left pointing label"> NORMAL </a>
+			</div>
+		</div>
+		<div class="card">
+			<div class="ui labeled button" tabindex="0">
+				<button class="ui green button" onClick="$('#qcm2022rat').modal('show')">
+					<i class="eye icon"></i> Result de QCM 2022
+				</button>
+				<a class="ui basic green left pointing label"> RATRAPAGE </a>
+			</div>
+		</div>
+	</div> -->
+
+
+	<!-- <div class="ui grid">
+		<div class="two wide column"></div>
+		<div class="six wide column">
+			<div class="ui labeled button" tabindex="0">
+				<button class="ui green button" onClick="$('#qcm2022nor').modal('show')">
+					<i class="eye icon"></i> Result de QCM 2022
+				</button>
+				<a class="ui basic green left pointing label"> NORMAL </a>
+			</div>
+		</div>
+		<div class="six wide column">
+			<div class="ui labeled button" tabindex="0">
+				<button class="ui green button" onClick="$('#qcm2022rat').modal('show')">
+					<i class="eye icon"></i> Result de QCM 2022
+				</button>
+				<a class="ui basic green left pointing label"> RATRAPAGE </a>
+			</div>
+		</div>
+		<div class="two wide column"></div>
+	</div> -->
+
+
+
+<!-- </div> -->
+<!-- <div class="ui segment outBgCard"> -->
+
+
+	<!-- <h2 class="header">Process Wise Report</h2> -->
+	<!-- <h2 class="header">&emsp;&ensp;&nbsp;QCM Qualite Report:</h2> -->
+	<!-- HADA DARORI IB9A .. MA3RFT 3LACH ?? -->
+	<!-- <canvas id="EtudData"></canvas>  -->
+
+
+	<div class="ui two stackable cards">
+
+		<!-- <div class="ui red segment"> -->
+		<div class="card">
+
+
+			<div class="content">
+
+				<div class="ui inverted segment">
+					<div class="ui inverted list">
+						<br>
+						<div class="item">
+							<br>
+							<i class="angle right icon"></i>
+							<div class="content">
+								<div class="ui header">
+									Nombre Etud <span
+										style="text-decoration: underline; text-decoration-color: lightseagreen;">Pass</span>
+									Examen:
+									<span style="color:lightseagreen;">340 <i class="users icon"></i></span>
+								</div>
+								<!-- <div class="description">Source files for project</div> -->
+
+								<br>
+								<div class="list">
+									<div class="item">
+										<i class="angle double right icon"></i>
+										<div class="content">
+											<div class="ui header">
+												Nombre Etud <span
+													style="text-decoration: underline; text-decoration-color: #20B744;">Valid</span>
+												:
+												<span style="color: #20B744;">295 <i class="users icon"></i></span>
+											</div>
+											<!-- <div class="description">Your site's theme</div> -->
+										</div>
+									</div>
+
+									<br>
+									<div class="item">
+										<i class="angle double right icon"></i>
+										<div class="content">
+											<div class="ui header">
+												Nombre Etud <span
+													style="text-decoration: underline; text-decoration-color: orange;">Non
+													Valid</span> :
+												<span style="color:orange;">45 <i class="users icon"></i></span>
+											</div>
+											<!-- <div class="description">Packaged theme files</div> -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<br>
+						<div class="item">
+							<i class="angle right icon"></i>
+							<div class="content">
+								<div class="ui header">
+									Nombre Etud <span
+										style="text-decoration: underline; text-decoration-color: orangered;">Ne
+										Pass</span> Examen:
+									<span style="color:orangered;">5 <i class="users icon"></i></span>
+									<br><br><br>
+								</div>
+								<!-- <div class="description">Source files for project</div> -->
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- </div> -->
+
+		<div class="card">
+
+
+
+			<h2 class="ui center aligned header">QCM Qualite Report:</h2>
+			<div class="ui divider"></div>
+			<canvas id="EtudData"></canvas>
+
+		</div>
+	</div>
+
+
+	<div class="ui one stackable cards">
+		<div class="card">
+			<div class="ui left aligned segment">
+				<h3>44aaQCM Qualite Report:</h3>
+			</div>
+			<canvas id="QltExam"></canvas>
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	
+
+
+	<div class="ui one item menu">
+		<!-- <div class="left menu"> -->
+			<div class="item">
+				<button class="ui green button" onClick="$('#qcm2019nor').modal('show')">
+					<i class="eye icon"></i>Voir + Imprimer des results
+				</button>
+			</div>
+		<!-- </div> -->
+	</div>
+	
+	<!--cette partie va afficher apres click sur 'Voir + Imprimer des results' button-->
+	<!-- 2019 result QCM  -->
+	<!-- mazal madert firebase -->
+	<div class="ui modal" id="qcm2019nor">
+		<i class="close icon"></i>
+		<div class="header">
+			Result QCM 2019 | NORMAL:
+		</div>
+	
+		<div>
+			<br>
+			<button class="ui primary button" onClick="window.print()">
+				<i class="print icon"></i>
+				Print theesse results
+			</button>
+		</div>
+	
+		<div class="content">
+			<div class="ui two stackable cards">
+				<div class="card" ng-repeat="qst in ExmCtrl.qcmList2019nor"> <!--had qcmList2019nor mazal matgad-->
+					<div class="content">
+						<h2 class="header">
+							<span style="color: #059; background-color: #BEF;">Question {{qst.n}}:</span>
+							{{qst.question}}
+						</h2>
+						<div class="ui divider"></div>
+						<table>
+							<tr>
+								<td style="font-family: Monaco, monospace;">
+									<span
+										style="color: #270; background-color: #DFF2BF; font-weight: bold;">Result:</span>
+									{{qst.reponse}}
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+
+<div class="ui segment outBgCard">
+
+	<div class="ui two stackable cards">
+
+		<div class="card">
+			<!-- <div class="content"> -->
+
+			<div class="ui left aligned segment">
+				<h3>11aaQCM Qualite Report:</h3>
+			</div>
+			<canvas id="SessionNORData"></canvas>
+			<!-- </div> -->
+		</div>
+		<div class="card">
+			<!-- <div class="content"> -->
+
+			<div class="ui left aligned segment">
+				<h3>22aaQCM Qualite Report:</h3>
+			</div>
+			<canvas id="SessionRATData"></canvas>
+			<!-- </div> -->
+		</div>
+
+	</div>
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 2021 result QCM  -->
+	<!-- mazal madert firebase -->
+	<div class="ui modal" id="qcm2022nor">
+		<i class="close icon"></i>
+		<div class="header">
+			Result QCM 2022 | NORMAL:
+		</div>
+		<div class="content">
+			<div class="ui two stackable cards">
+
+				<div class="card" ng-repeat="qst in ExmCtrl.qcmList2022nor">
+					<div class="content">
+						<h2 class="header">
+							<span style="color: #059; background-color: #BEF;">Question {{qst.n}}:</span>
+							{{qst.question}}
+						</h2>
+						<div class="ui divider"></div>
+						<table>
+							<tr>
+								<td style="font-family: Monaco, monospace;">
+									<span
+										style="color: #270; background-color: #DFF2BF; font-weight: bold;">Result:</span>
+									{{qst.reponse}}
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+			</div>
+
+			<div>
+				<br>
+				<button class="ui primary button" onClick="window.print()">
+					<i class="print icon"></i>
+					Print theeNORsse results
+				</button>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- 2022 result QCM  -->
+	<!-- mazal madert firebase -->
+	<div class="ui modal" id="qcm2022rat">
+		<i class="close icon"></i>
+		<div class="header">
+			Result QCM 2022 | RATRAPAGE:
+		</div>
+		<div class="content">
+			<div class="ui two stackable cards">
+
+				<div class="card" ng-repeat="qst in ExmCtrl.qcmList2022rat">
+					<div class="content">
+						<h2 class="header">
+							<span style="color: #059; background-color: #BEF;">Question {{qst.n}}:</span>
+							{{qst.question}}
+						</h2>
+						<div class="ui divider"></div>
+						<table>
+							<tr>
+								<td style="font-family: Monaco, monospace;">
+									<span
+										style="color: #270; background-color: #DFF2BF; font-weight: bold;">Result:</span>
+									{{qst.reponse}}
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+
+			</div>
+
+			<div>
+				<br>
+				<button class="ui primary button" onClick="window.print()">
+					<i class="print icon"></i>
+					Print these results
+				</button>
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="ui segment">
+	<div class="ui center aligned header">
+		<h1>EXAMEN 2019 <span style="color: #47A3D0;">SESSION RATTRAPAGE</span></h1>
+	</div>
+
+	<div class="ui two stackable cards">
+
+		<div class="card">
+
+			<div class="content">
+
+				<div class="ui inverted segment">
+					<div class="ui inverted list"> <br>
+						<div class="item"> <br>
+							<i class="angle right icon"></i>
+							<div class="content">
+								<div class="ui header">
+									Nombre Etud 
+									<span style="text-decoration: underline; text-decoration-color: lightseagreen;">Pass</span>
+									Examen:
+									<span style="color:lightseagreen;">340 <i class="users icon"></i></span>
+								</div> <br>
+								<div class="list">
+									<div class="item">
+										<i class="angle double right icon"></i>
+										<div class="content">
+											<div class="ui header">
+												Nombre Etud 
+												<span style="text-decoration: underline; text-decoration-color: #20B744;">Valid</span>
+												:
+												<span style="color: #20B744;">295 <i class="users icon"></i></span>
+											</div>
+										</div>
+									</div>
+
+									<br>
+									<div class="item">
+										<i class="angle double right icon"></i>
+										<div class="content">
+											<div class="ui header">
+												Nombre Etud <span
+													style="text-decoration: underline; text-decoration-color: orange;">Non
+													Valid</span> :
+												<span style="color:orange;">45 <i class="users icon"></i></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<br>
+						<div class="item">
+							<i class="angle right icon"></i>
+							<div class="content">
+								<div class="ui header">
+									Nombre Etud <span
+										style="text-decoration: underline; text-decoration-color: orangered;">Ne
+										Pass</span> Examen:
+									<span style="color:orangered;">5 <i class="users icon"></i></span>
+									<br><br><br>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- </div> -->
+
+		<div class="card">
+			<h2 class="ui center aligned header">QCM Qualite Report:</h2>
+			<div class="ui divider"></div>
+			<canvas id="EtudData"></canvas>
+		</div>
+	</div>
+
+
+	<div class="ui one stackable cards">
+
+		<div class="card">
+			<!-- <div class="content"> -->
+
+			<div class="ui left aligned segment">
+				<h3>44aaQCM Qualite Report:</h3>
+			</div>
+			<canvas id="QltExam"></canvas>
+			<!-- </div> -->
+		</div>
+
+	</div>
+
+	<div class="ui one item menu">
+		<!-- <div class="left menu"> -->
+			<div class="item">
+				<button class="ui green button" onClick="$('#qcm2019nor').modal('show')">
+					<i class="eye icon"></i>Voir + Imprimer des results
+				</button>
+			</div>
+		<!-- </div> -->
+	</div>
+	
+	<!--cette partie va afficher apres click sur 'Voir + Imprimer des results' button-->
+	<!-- 2019 result QCM  -->
+	<div class="ui modal" id="qcm2019nor">
+		<i class="close icon"></i>
+		<div class="header">
+			Result QCM 2019 | NORMAL:
+		</div>
+	
+		<div>
+			<br>
+			<button class="ui primary button" onClick="window.print()">
+				<i class="print icon"></i>
+				Print theesse results
+			</button>
+		</div>
+	
+		<div class="content">
+			<div class="ui two stackable cards">
+				<div class="card" ng-repeat="qst in ExmCtrl.qcmList2019nor"> <!--had qcmList2019nor mazal matgad-->
+					<div class="content">
+						<h2 class="header">
+							<span style="color: #059; background-color: #BEF;">Question {{qst.n}}:</span>
+							{{qst.question}}
+						</h2>
+						<div class="ui divider"></div>
+						<table>
+							<tr>
+								<td style="font-family: Monaco, monospace;">
+									<span
+										style="color: #270; background-color: #DFF2BF; font-weight: bold;">Result:</span>
+									{{qst.reponse}}
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>

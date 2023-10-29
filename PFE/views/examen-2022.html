@@ -1,0 +1,201 @@
+<img class="background" src="./images/9.jpg">
+
+<div class="ui black right aligned small disabled header">
+	<i class="small clock icon"></i>Le : {{ExmCtrl.dateAujourdhuit | date:'dd/MM/yyyy HH:mm:ss'}}&nbsp;&nbsp;&nbsp;&nbsp;				
+</div>
+
+<div class="ui segment">
+	<div class="ui segment">
+
+		<div class="ui center aligned header">
+			<h2>RÉSULTAT D'<span style="color: #47A3D0;">EXAMEN 2022 :</span></h2>
+		</div>
+		<div class="ui grid">
+			<div class="two wide column"></div>
+
+			<div class="six wide column">
+				<div class="ui labeled button" tabindex="0" onClick="$('#qcm2022nor').modal('show')">
+					<button class="ui green button">
+						SESSION NORMAL
+					</button>
+					<a class="ui basic green left pointing label"><i class="eye outline icon"></i>Afficher</a>
+				</div>
+			</div>
+
+			<div class="six wide column">
+				<div class="ui labeled button" tabindex="0" onClick="$('#qcm2022rat').modal('show')">
+					<button class="ui green button">
+						SESSION RATRAPAGE
+					</button>
+					<a class="ui basic green left pointing label"> <i class="eye icon"></i>Afficher </a>
+				</div>
+			</div>
+
+			<div class="two wide column"></div>
+
+		</div>
+	</div>
+</div>
+
+
+
+<div class="ui segment outBgCard">
+	<div class="ui two stackable cards">
+
+		<div class="card">
+			<div class="ui inverted segment">
+				<div class="ui inverted segment">
+					<div class="content">
+						<h3>Date d'examen 2022 session NORMAL : </h3>
+						<!-- <div class="ui divider"></div> -->
+						<h2 class="ui center aligned header"> <span style="color: #47A3D0;"><i class="calendar icon"></i>{{ExmCtrl.dateExamen22nor}}</span></h2>
+					</div>
+				</div>
+				<div class="ui divider"></div>
+				<div class="ui divider"></div>
+				<div class="ui inverted segment">
+					<!-- <div class="ui divider"></div> -->
+					<div class="content">
+						<h3>Date d'examen 2022 session RATTRAPAGE : </h3>
+						<!-- <div class="ui divider"></div> -->
+						<h2 class="ui center aligned header"> <span style="color: #47A3D0;"><i class="calendar icon"></i>{{ExmCtrl.dateExamen22rat}}</span></h2>
+					</div>
+				</div>
+				<br>
+			</div>
+		</div>
+
+		<div class="card">
+			<h2 class="ui center aligned header">Étudients Passent Examen 2022</h2>
+			<div class="ui divider"></div>
+			<canvas id="EtudData"></canvas> 
+		</div>
+
+	</div>
+</div>
+
+
+<div class="ui segment outBgCard">
+	<div class="ui center aligned header">
+		<h2><span style="color: #47A3D0;">ANALYSE</span> DES ÉTUDIANTS APRÈS L'EXAMEN 2022</span></h2>
+	</div>
+
+	<div class="ui two stackable cards">
+
+		<div class="card">
+			<div class="ui black inverted left aligned segment">
+				<h3>Session Normal:</h3>
+			</div>
+			<canvas id="SessionNORData"></canvas> 
+		</div>
+
+		<div class="card">
+			<div class="ui black inverted left aligned segment">
+				<h3>Session Rattrapage:</h3>
+			</div>
+			<canvas id="SessionRATData"></canvas> 
+		</div>
+
+	</div>
+
+
+
+	<div class="ui one stackable cards">
+		<div class="card">
+			<div class="ui black inverted left aligned segment">
+				<h3>Qualité d'examen 2022</h3>
+			</div>
+			<canvas id="QltExam"></canvas> 
+		</div>
+
+	</div>
+
+
+<!-- ---------------------------------------------------------------------------- -->
+
+
+<!-- les correction d'Examen 2022 NOR-->
+	<div class="ui modal" id="qcm2022nor">
+		<i class="close icon"></i>
+		<div class="header">
+			Resultat d'examen 2022 | NORMAL:
+		</div>
+		<div class="content">
+
+			<div class="ui two stackable cards">
+
+				<div class="card" ng-repeat="qst in ExmCtrl.qcmList2022nor">
+					<div class="content">
+						<h2 class="header">
+							<span style="color: #059; background-color: #BEF;">Question {{qst.n}}:</span>
+							{{qst.question}}
+						</h2>
+						<div class="ui divider"></div>
+						<table>
+							<tr>
+								<td style="font-family: Monaco, monospace;">
+									<span
+										style="color: #270; background-color: #DFF2BF; font-weight: bold;">Result:</span>
+									{{qst.reponse}}
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+			</div>
+
+			<div>
+				<br>
+				<button class="ui primary button" onClick="window.print()">
+					<i class="print icon"></i>
+					Imprimer les corrections
+				</button>
+			</div>
+
+		</div>
+	</div>
+
+
+	<!-- les corection d'Examen 2022 RAT-->
+	<div class="ui modal" id="qcm2022rat">
+		<i class="close icon"></i>
+		<div class="header">
+			Resultat d'examen 2022 | RATTRAPAGE:
+		</div>
+		<div class="content">
+
+			<div class="ui two stackable cards">
+
+				<div class="card" ng-repeat="qst in ExmCtrl.qcmList2022rat">
+					<div class="content">
+						<h2 class="header">
+							<span style="color: #059; background-color: #BEF;">Question {{qst.n}}:</span>
+							{{qst.question}}
+						</h2>
+						<div class="ui divider"></div>
+						<table>
+							<tr>
+								<td style="font-family: Monaco, monospace;">
+									<span
+										style="color: #270; background-color: #DFF2BF; font-weight: bold;">Result:</span>
+									{{qst.reponse}}
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+			</div>
+
+			<div>
+				<br>
+				<button class="ui primary button" onClick="window.print()">
+					<i class="print icon"></i>
+					Print these results
+				</button>
+			</div>
+
+		</div>
+	</div>
+</div>

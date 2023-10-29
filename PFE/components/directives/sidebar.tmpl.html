@@ -1,0 +1,36 @@
+<a class="ui inverted blue header item" href="#/home">
+	<i class="big icons">
+
+		 <!-- Logo -->
+		<i class="big teal circle outline icon"></i>
+		<i class="inverted blue chart pie icon"></i>
+	</i>
+	<span style="color:#00B5AD;">DASH</span>BOARD
+</a>
+<div class="navbar_item">
+	<a class="ui header item" href="#/home" ng-class="{'active': (selectedMenu == '/')}">
+		<i class="teal icon home"></i>Home
+	</a>
+</div>
+<div class="navbar_item">
+	<a class="ui header item" href="#/examen2022" ng-class="{'active':(selectedMenu == '/examen2022')}">
+		<i class="teal star loading icon"></i>
+		Examen 2022
+	</a>
+</div>
+<div class="navbar_item">
+	<div class="ui header simple dropdown item">
+		<i class="teal indent icon"></i>
+		Anciens Examens
+		<div class="menu menuWt">
+			<a class="item" ng-repeat="exm in OldExam" href="{{::exm.path}}">{{::exm.annee}} <i
+					class="ellipsis vertical icon"></i>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="navbar_item">
+	<a href="./index.html" class="ui header item"  id='logout' name="logout" >
+		Déconnecter <i class="teal sign out alternate icon"></i>
+	</a>
+</div>

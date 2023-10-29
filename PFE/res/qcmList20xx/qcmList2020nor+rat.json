@@ -1,0 +1,206 @@
+{
+    "qcmList2020nor":[
+        {
+			"n":1,
+			"question": " La mémoire qui permet l’opération de lecture et d’écriture simultanées est _________?",
+			"reponse": "B- RAM"
+		},
+		{
+			"n":2,
+			"question": " Laquelle des expressions suivantes NE représente PAS le NOR exclusif de x et y?",
+			"reponse": "D- x’ ^ y’ où ^ est XOR"
+		},
+		{
+			"n":3,
+			"question": " Qui n’est pas considéré comme un périphérique de l’ordinateur?",
+			"reponse": "D- CPU"
+		},
+		{
+			"n":4,
+			"question": " La taille du registre accumulateur peut être de ____?",
+			"reponse": "C- 4 octets"
+		},
+		{
+			"n":5,
+			"question": " Le composant informatique le plus rapide est ______?",
+			"reponse": "C- registre"
+		},
+		{
+			"n":6,
+			"question": " Le format ______ est généralement utilisé pour stocker des données.",
+			"reponse": "A- BCD"
+		},
+		{
+			"n":7,
+			"question": " Un programme source est généralement écrit en _______.",
+			"reponse": "C- Langage de haut niveau"
+		},
+		{
+			"n":8,
+			"question": " L’ALU utilise _______ pour stocker les résultats intermédiaires.",
+			"reponse": "A- L’accumulateurs"
+		},
+		{
+			"n":9,
+			"question": " Un « BUS » informatique est composée de ______?",
+			"reponse": "C- ensemble de lignes parallèles"
+		},
+		{
+			"n":10,
+			"question": " La somme des produits simplifiée de l’expression booléenne (P + Q ‘+ R’). (P + Q ‘+ R). (P + Q + R ‘) est ______?",
+			"reponse": "B- (P + Q’.R’)"
+		},
+		{
+			"n":11,
+			"question": " Sur l’ordinateur, la taille de chaque registre de contrôle de la pile DI, SI, SP et BP est _________?",
+			"reponse": "A- 2 octets"
+		},
+		{
+			"n":12,
+			"question": " RAM signifie_________?",
+			"reponse": "C- Random Access Memory"
+		},
+		{
+			"n":13,
+			"question": " Les cellules de la mémoire de l’ordinateur sont organisées en un groupe de_________?",
+			"reponse": "A- 8 bits"
+		},
+		{
+			"n":14,
+			"question": " Si P, Q, R sont des variables booléennes, alors la forme (P + Q ‘) (PQ’ + PR) (P’R ‘+ Q’) simplifie est _____?",
+			"reponse": "A- PQ’"
+		},
+		{
+			"n":15,
+			"question": " L’étape où l’ordinateur exécute l’action donnée dans l’instruction s’appelle ______?",
+			"reponse": "D- execute"
+		},
+		{
+			"n":16,
+			"question": " L’opération effectuée par ALU(Unité Arithmétique et Logique) est ______?",
+			"reponse": "D- Tout les réponses sont vrais"
+		},
+		{
+			"n":17,
+			"question": " Quel est le nombre minimum de portes requis pour implémenter la fonction booléenne (AB + C) si nous ne devons utiliser que des portes NOR à 2 entrées?",
+			"reponse": "B- 3"
+		},
+		{
+			"n":18,
+			"question": " Le processeur est composé des pièces suivantes ______?",
+			"reponse": "B- CU (unité de contrôle) et ALU(Unité Arithmétique et Logique)"
+		},
+		{
+			"n":19,
+			"question": " Le composant du CPU chargée de comparer le contenu de deux données est ______?",
+			"reponse": "A- ALU (Unité Arithmétique et Logique)"
+		},
+		{
+			"n":20,
+			"question": " Lequel des éléments suivants n’est pas une sorte de registre?",
+			"reponse": "D- Coprocesseur mathématique"
+		}
+    ],
+    "qcmList2020rat":[
+       {
+			"n":1,
+			"question": " L’ordinateur tire sa force de base de _________?",
+			"reponse": "D- Tout les réponses sont vrais"
+		},
+		{
+			"n":2,
+			"question": " Un ensemble de lignes qui connecte plusieurs appareils s’appelle _______?",
+			"reponse": "A- Un bus"
+		},
+		{
+			"n":3,
+			"question": " Un système complet de micro-ordinateurs se compose de _______?",
+			"reponse": "D- Tout les réponses sont vrais"
+		},
+		{
+			"n":4,
+			"question": " Le Compteur de programme(PC) est également appelé _______?",
+			"reponse": "A- pointeur d’instruction"
+		},
+		{
+			"n":5,
+			"question": " Dans un seul octet, combien de bits y aura-t-il?",
+			"reponse": "A- 8"
+		},
+		{
+			"n":6,
+			"question": " Le processeur n’effectue pas l’opération __________",
+			"reponse": "A- De transfert de données"
+		},
+		{
+			"n":7,
+			"question": " Le temps d’accès à la mémoire est _____ le temps nécessaire pour effectuer une seule opération du CPU.",
+			"reponse": "B- plus long que"
+		},
+		{
+			"n":8,
+			"question": " Une condition d’exception dans un système informatique causée par un événement externe du CPU est appelée ____?",
+			"reponse": "A- interruption"
+		},
+		{
+			"n":9,
+			"question": " Lorsque le CPU détecte une interruption, il enregistre alors son ______?",
+			"reponse": "C- Etat actuel"
+		},
+		{
+			"n":10,
+			"question": " Considérons la fonction booléenne suivante de quatre variables: f (w, x, y, z) = ∑ (1,3,4,6,9,11,12,14). La fonction est _______",
+			"reponse": "B- indépendant de deux variables"
+		},
+        {
+			"n":11,
+			"question": " Un programme informatique qui convertit un programme en langage machine en même temps est appelé _________?",
+			"reponse": "C- compilateur"
+		},
+		{
+			"n":12,
+			"question": " Nous appellons l’unité qui décode et traduit chaque instruction et génère les signaux d’activation nécessaires pour ALU et d’autres unités.",
+			"reponse": "C- Unité de contrôle"
+		},
+		{
+			"n":13,
+			"question": " Indiquez si l’instruction suivante est Vrai ou Faux pour la mémoire cache: Les mémoires cache sont des mémoires tampons(buffers) à grande vitesse insérées entre les processeurs et la mémoire principale.",
+			"reponse": "A- Vrai"
+		},
+		{
+			"n":14,
+			"question": " Indiquez si l’instruction suivante est Vrai ou Faux pour la mémoire cache: Ils peuvent également être insérés entre la mémoire principale et la mémoire de masse.",
+			"reponse": "A- Vrai"
+		},
+		{
+			"n":15,
+			"question": " Indiquez si l’instruction suivante est Vrai ou Faux pour la mémoire cache: Il peut être utilisé comme mémoire secondaire.",
+			"reponse": "B- Faux"
+		},
+		{
+			"n":16,
+			"question": " Le canal qui traite les demandes multiples et multiplexe les transferts de données de ces périphériques, octet par octet, est appelé _______?",
+			"reponse": "A- Canal multiplexeur"
+		},
+		{
+			"n":17,
+			"question": " Le mappage des adresses est terminé, lorsque le programme est chargé initialement est appelé ______?",
+			"reponse": "C- relocalisation statique"
+		},
+		{
+			"n":18,
+			"question": " Indiquez si l’instruction suivante est Vrai ou Faux pour le bus PCI: Le bus PCI se règle à 33 MHz et peut transférer 32 bits de données (quatre octets) à chaque impulsion d’horloge.",
+			"reponse": "A- Vrai"
+		},
+		{
+			"n":19,
+			"question": " Indiquez si l’instruction suivante est Vrai ou Faux pour le bus PCI: La puce d’interface PCI peut prendre en charge la carte vidéo, la puce de contrôleur de disque EIDE et aussi des cartes d’adaptateur externe.",
+			"reponse": "A- Vrai"
+		},
+		{
+			"n":20,
+			"question": " Indiquez si l’instruction suivante est Vrai ou Faux pour le bus PCI: Le bus PCI ne diffère entièrement que sur une interface 32 bits que d’autres parties de la machine acheminent via un chemin de 64 bits.",
+			"reponse": "B- Faux"
+        }
+    ]
+}

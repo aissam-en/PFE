@@ -1,0 +1,208 @@
+{
+    "qcmList2021nor":[
+        {
+			"n":1,
+			"question": " Le processeur dispose d’un accès direct à ______ et contient un certain nombre de canaux de données indépendants.",
+			"reponse": "A- mémoire principale"
+		},
+		{
+			"n":2,
+			"question": " Le temps qui s’écoule entre le début d’une opération et son achèvement s’appelle _______?",
+			"reponse": "C- temps d’accès à la mémoire"
+		},
+		{
+			"n":3,
+			"question": " Les interruptions déclenchées par une instruction sont _______?",
+			"reponse": "D- logiciel"
+		},
+		{
+			"n":4,
+			"question": " Un microprogramme écrit sous forme de chaîne de 0 et de 1 est un ___?",
+			"reponse": "D- microprogramme binaire"
+		},
+		{
+			"n":5,
+			"question": " Nous appelons l’ensemble des chemins électriques utilisés pour transférer des données : _____?",
+			"reponse": "A- bus"
+		},
+		{
+			"n":6,
+			"question": " Lorsqu’un caractère est transféré au processeur, le flag SIN est automatiquement changé à ______?",
+			"reponse": "A- 0"
+		},
+		{
+			"n":7,
+			"question": " L’accès à la mémoire dans l’architecture RISC est limité aux instructions?",
+			"reponse": "C- STA et LDA"
+		},
+		{
+			"n":8,
+			"question": " L’unité de mémoire qui communique directement avec la CPU est appelée ______?",
+			"reponse": "A- mémoire principale"
+		},
+		{
+			"n":9,
+			"question": " CISC signifie ______?",
+			"reponse": "C- Complex Instruction Set Computers"
+		},
+		{
+			"n":10,
+			"question": " La communication entre le système central et l’environnement extérieur se fait par ______?",
+			"reponse": "A- Sous-système d’entrée-sortie"
+		},
+		{
+			"n":11,
+			"question": " Le registre qui garde une trace des instructions du programme enregistré en mémoire est _____?",
+			"reponse": "B- Compteur ordinal"
+		},
+		{
+			"n":12,
+			"question": " Dans le cas où il y a un seul opérande de mémoire, et lorsqu’un deuxième opérande est nécessaire, comme dans le cas d’une instruction Add, nous utilisons un registre de processeur appelé _____?",
+			"reponse": "A- accumulator"
+		},
+		{
+			"n":13,
+			"question": " Le transfert de données entre la mémoire principale et le registre du CPU s’effectue via deux registres, à savoir _____?",
+			"reponse": "C- MAR et MDR"
+		},
+		{
+			"n":14,
+			"question": " Les instructions qui entraînent le transfert de données d’un emplacement à un autre sans modifier le contenu de l’information binaire sont _____?",
+			"reponse": "A- Instruction de transfert de données"
+		},
+		{
+			"n":15,
+			"question": " Le codage informatique pour l’échange d’informations entre les terminaux est _____?",
+			"reponse": "C- ASCII"
+		},
+		{
+			"n":16,
+			"question": " SIMD signifie _______?",
+			"reponse": "A- Single Instruction, Multiple Data"
+		},
+		{
+			"n":17,
+			"question": " La fonction NOR est le complément de _______?",
+			"reponse": "B- OR"
+		},
+		{
+			"n":18,
+			"question": " _______ est un circuit numérique qui effectue l’opération inverse de décodage.",
+			"reponse": "D- encodeur"
+		},
+		{
+			"n":19,
+			"question": " Pipelining augmente ________ des instructions du processeur.",
+			"reponse": "C- le débit"
+		},
+		{
+			"n":20,
+			"question": " Le _______ est un programme qui a pour fonction de démarrer le System de l’ordinateur dès sa mise sous tension.",
+			"reponse": "A- Bootstrap loader"
+        }
+    ],
+    "qcmList2021rat":[
+       {
+			"n":1,
+			"question": " Le langage développé pour les applications métier est appelé _____?",
+			"reponse": "B- COBOL"
+		},
+		{
+			"n":2,
+			"question": " La mémoire de l’ordinateur utilisée pour accélérer le traitement de l’ordinateur est appelé _____?",
+			"reponse": "B- Mémoire cache"
+		},
+		{
+			"n":3,
+			"question": " La puce EEPROM peut être ________?",
+			"reponse": "B- reprogrammé électroniquement"
+		},
+		{
+			"n":4,
+			"question": " Dans un ordinateur, CU signifie ________?",
+			"reponse": "A- Control Unit"
+		},
+		{
+			"n":5,
+			"question": " Lorsque l’arithmétique, la logique et l’unité de contrôle d’un ordinateur sont combinées en une seule unité, on parle de ________?",
+			"reponse": "A- unité centrale de traitement"
+		},
+		{
+			"n":6,
+			"question": " Le bus d’adresse d’un ordinateur est ________?",
+			"reponse": "B- Unidirectionnel"
+		},
+		{
+			"n":7,
+			"question": " Bus informatique avec 64 lignes peuvent transporter ________?",
+			"reponse": "B- 64bits"
+		},
+		{
+			"n":8,
+			"question": " Caractéristique(s) du mémoire en lecture seule est/sont ________?",
+			"reponse": "D- Les deux A et B sont vrais."
+		},
+		{
+			"n":9,
+			"question": " En informatique, ALU a ________?",
+			"reponse": "A- 2 unités"
+		},
+		{
+			"n":10,
+			"question": " La manière dont les composants informatiques sont connectés les uns aux autres est appelée ________?",
+			"reponse": "B- l’architecture des ordinateurs"
+		},
+        {
+			"n":11,
+			"question": " Le type de mémoire non volatile qui ne peut pas être modifié par l’utilisateur est _____?",
+			"reponse": "C- ROM"
+		},
+		{
+			"n":12,
+			"question": " Le composant le plus probablement utilisé pour la technologie RAM statique (ou SRAM) est _____?",
+			"reponse": "C- Mémoire cache"
+		},
+		{
+			"n":13,
+			"question": " L’adresse de l’instruction exécutée par le processeur est contenue dans un _____?",
+			"reponse": "A- compteur ordinale"
+		},
+		{
+			"n":14,
+			"question": " Le cerveau d’un ordinateur est _____?",
+			"reponse": "A- CPU"
+		},
+		{
+			"n":15,
+			"question": " Dans un ordinateur, ALU peut effectuer _____?",
+			"reponse": "D- Tout les réponses sont vrais"
+		},
+		{
+			"n":16,
+			"question": " L’objectif d’une mémoire secondaire est de _____?",
+			"reponse": "C- Stocker en permanence des données"
+		},
+		{
+			"n":17,
+			"question": " En informatique, EEPROM signifie _____?",
+			"reponse": "C- Electronically Erasable Programmable Read Only Memory"
+		},
+		{
+			"n":18,
+			"question": " La différence entre ROM et RAM est _____?",
+			"reponse": "D- Les deux A et B sont vrais."
+		},
+		{
+			"n":19,
+			"question": " Le composant de la CPU qui n’est pas responsable de l’interaction avec la mémoire principale est _____?",
+			"reponse": "B- CU"
+		},
+		{
+			"n":20,
+			"question": " Lequel des éléments suivants n’est pas un type de bus dans l’ordinateur?",
+			"reponse": "C- bus de temps"
+        }
+]
+
+
+}

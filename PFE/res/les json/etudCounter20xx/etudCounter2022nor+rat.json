@@ -1,0 +1,21 @@
+{
+    "nbr_total_etud_insc":296,
+
+    "etudCounter2022nor":[
+        {
+            "nbr_etud_val"       :330,
+            "nbr_etud_noval"     :85,
+            "nbr_etud_pass_exam" :290,
+            "nbr_etud_abs"       :6
+        }
+    ],
+    "etudCounter2022rat":[
+        {
+            "nbr_etud_val"       :77,
+            "nbr_etud_noval"     :4,
+            "nbr_etud_pass_exam" :81,
+            "nbr_etud_abs"       :10
+        }
+    ]
+
+}
